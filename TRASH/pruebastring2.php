@@ -1,6 +1,6 @@
 <?php
 
-$email= "jesusestevezrodriguez@gmail.com"
+$email= "jesusestevezrodriguez@gmail.com";
 
 $usuario= stristr("jesusestevezrodriguez@gmail.com", "@");
 

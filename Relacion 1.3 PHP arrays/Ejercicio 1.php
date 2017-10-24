@@ -30,24 +30,23 @@
 
     <div id='php'>
         <?php
+        echo "Con foreach: <br>";
 
-    echo "Con foreach: <br>";
+        $dias = ['lunes', 'maertes', 'miercoles', 'jueves', 'viernes', 'sabado', 'domingo'];
 
-    $dias = ['lunes', 'maertes', 'miercoles', 'jueves', 'viernes', 'sabado', 'domingo'];
+        foreach ($dias as $clave => $valor) {
+            echo "El $valor corresponde con el $clave de la semana. <br>";
+        };
 
-    foreach ($dias as $clave => $valor) {
-        echo "El $valor corresponde con el $clave de la semana. <br>";
-    };
+        echo "----------------------------------------------------------------------------- <br>";
+        echo "Con for: <br>";
 
-    echo "----------------------------------------------------------------------------- <br>";
-    echo "Con for: <br>";
+        for ($i = 0; $i < sizeof($dias); $i++) {
+            echo "El  $dias[$i] corresponde con el $i de la semana. <br>";
+        }
 
-    for ($i=0; $i < sizeof($dias); $i++) { 
-        echo "El $dias[$i] corresponde con el $i de la semana. <br>";
-    }
-    
 
-    ?>
+        ?>
     </div>
 </body>
 

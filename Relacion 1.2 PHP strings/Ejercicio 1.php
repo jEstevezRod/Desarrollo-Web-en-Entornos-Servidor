@@ -8,7 +8,7 @@
     <?php
 		$c1='tengo camiones';
 		$c2='me voy de vacaciozes';
-		$lista=['camiones', 'vacaciones']
+		$lista=['camiones', 'vacaciones'];
 
 		function riman($x) {
 			for ($i=1; $i < $x.lenght ; $i++) { 
