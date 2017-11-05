@@ -11,11 +11,10 @@
 $random = isset($_POST['random']) ? $_POST['random'] : rand(0, 100);
 if (isset($_POST['comprobar'])) {
     if ($_POST['comprobar'] == $random) {
-        echo "Has acertado!!<br/>";
-        echo "Hemos generado un nuevo número aleatorio.<br/>";
+        echo "Acertaste<br/>Hemos generado un nuevo número aleatorio.<br/>";
         $random = rand(0, 100);
     } else {
-        echo "Ooooh, inténtalo de nuevo.";
+        echo "Pruebe suerte otra vez";
     }
 }
 ?>
