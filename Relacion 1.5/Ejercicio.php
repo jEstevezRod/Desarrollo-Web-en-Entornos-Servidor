@@ -59,25 +59,6 @@
         $ejem = "fotocomunion.php";
         echo "El fichero $ejem es de tipo " . tipo_fichero($ejem);
 
-        
-        
-          /*Ejercicio 2*/
-        
-          $texto = "uno-dos-tres-cuatro-cinco";
-        
-          $separadas = explode('-', $texto);
-        
-          echo '<h1>Manejo de cadenas</h1>';
-          echo '<h2>Ejemplo 2</h2>';
-          echo '<ul>';
-          foreach ($separadas as $valor){
-            echo '<li>'.$valor.'</li>';
-          };
-        
-          echo '</ul>';
-        
-
-        
 
         ?>
     </div>
